@@ -15,6 +15,7 @@ import java.time.LocalDate;
 @Builder
 @ToString
 @IdClass(VtakaowpId.class)
+
 public class Vtakaowp {
     @Column(name = "dproceso", length = 30, nullable = true)
     private String dproceso;
@@ -72,5 +73,8 @@ public class Vtakaowp {
 
     @Column(name = "dcompra", nullable = true)
     private LocalDate dcompra;
+
+    public Vtakaowp() {
+    }
 
 }

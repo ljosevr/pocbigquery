@@ -19,11 +19,28 @@
     </properties>
 
 
+<!--    <dependencyManagement>-->
+<!--        <dependencies>-->
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-gcp-starter-bigquery</artifactId>-->
+<!--                <version>2021.0.0</version>-->
+<!--&lt;!&ndash;                <type>pom</type>&ndash;&gt;-->
+<!--&lt;!&ndash;                <scope>import</scope>&ndash;&gt;-->
+<!--            </dependency>-->
+<!--        </dependencies>-->
+<!--    </dependencyManagement>-->
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-gcp-bigquery</artifactId>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -33,6 +50,7 @@
 <!--        <dependency>-->
 <!--            <groupId>com.google.cloud</groupId>-->
 <!--            <artifactId>google-cloud-bigquery</artifactId>-->
+<!--            <version>3.3.0</version>-->
 <!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
